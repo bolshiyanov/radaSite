@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Простой HTML сайт</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #007BFF;
+      }
+      .cookie-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .cookie-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        width: calc(33.333% - 20px);
+        box-sizing: border-box;
+      }
+      .cookie-card img {
+        width: 100%;
+        height: 200px; /* Фиксированная высота */
+        object-fit: cover; /* Сохраняет пропорции */
+        border-radius: 8px;
+      }
+      .cookie-card h3 {
+        margin-top: 10px;
+        font-size: 1.5em;
+      }
+      .cookie-card p {
+        font-size: 1em;
+        margin: 10px 0;
+      }
+      .cookie-card button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .cookie-card button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">Обо мне</a></li>
+        </ul>
+      </nav>
+      <h1>Welcome to about page</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Шесть различных американских печений "Краб Кукис"</h2>
+        <div class="cookie-section">
+          <div class="cookie-card">
+            <img src="https://i.ytimg.com/vi/yQOE18v7CSs/maxresdefault.jpg" alt="Краб Кукис 1" />
+            <h3>Краб Кукис 1</h3>
+            <p>Описание первого вида печенья. Хрустящее, ароматное и незабываемое.</p>
+            <button>Купить</button>
+          </div>
+          <div class="cookie-card">
+            <img src="https://i.pinimg.com/originals/8b/fa/fc/8bfafcd57eff863caa029ec5a308b825.jpg" alt="Краб Кукис 2" />
+            <h3>Краб Кукис 2</h3>
+            <p>Описание второго вида печенья. Сладкое, вкусное и очень популярное.</p>
+            <button>Купить</button>
+          </div>
+          <div class="cookie-card">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/apple-crisp-cookie-cups-605edit-jpg-1633970042.jpg" alt="Краб Кукис 3" />
+            <h3>Краб Кукис 3</h3>
+            <p>Описание третьего вида печенья. Идеально подходит к чаю или кофе.</p>
+            <button>Купить</button>
+          </div>
+          <div class="cookie-card">
+            <img src="https://thali.blog/wp-content/uploads/2020/11/IMG_5197_jpg-scaled.jpg" alt="Краб Кукис 4" />
+            <h3>Краб Кукис 4</h3>
+            <p>Описание четвертого вида печенья. С добавлением орехов и шоколада.</p>
+            <button>Купить</button>
+          </div>
+          <div class="cookie-card">
+            <img src="https://i.pinimg.com/736x/85/63/8d/85638dc1e6e7398f0284b5a46c5b5449.jpg" alt="Краб Кукис 5" />
+            <h3>Краб Кукис 5</h3>
+            <p>Описание пятого вида печенья. Нежное и тает во рту.</p>
+            <button>Купить</button>
+          </div>
+          <div class="cookie-card">
+            <img src="https://i.pinimg.com/originals/06/d0/30/06d030b8b087772e5296dc740a6a2671.jpg" alt="Краб Кукис 6" />
+            <h3>Краб Кукис 6</h3>
+            <p>Описание шестого вида печенья. С добавлением фруктов и ягод.</p>
+            <button>Купить</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Rada. Все права защищены.</p>
+    </footer>
+  </body>
+</html>
